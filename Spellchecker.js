@@ -12,8 +12,11 @@ function isWordinList(word) {
 function isOneLetterError(word) {
     for (var i = 0; i < word.length; i++) {
         for (var j = 0; j < alfabhet.length; j++) {
-            word.charAt(i) = alfabhet.charAt(j);
-            console.log(word);
+            //  word.charAt(i) = alfabhet.charAt(j)
+            // console.log(word)
+            var letter = word.replace(word.charAt(i), alfabhet.charAt(j));
+            return letter;
+            console.log(letter);
         }
     }
 }
