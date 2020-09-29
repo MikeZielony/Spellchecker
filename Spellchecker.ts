@@ -1,5 +1,5 @@
 const words: string[] = ["lake", "lock", "lama", "lose", "luck", "like", "soke", "siwe", "sike"];
-let word: string = "lukc";
+let word: string = "lakelock";
 const alfabhet: string = 'abcdefghijklmnopqrstuvwxyz';
 let results: string[] = [];
 
@@ -37,7 +37,32 @@ function isLettersreplaced (word:string) {
     }
 }
 
+function separateWords(word: string) {
+    let newWord = '';
+    // for (let i: number = 0; i < word.length - 1; i++) {
+    //     newWord += word.charAt(i);
+    //     console.log(newWord);
+    //     if (isWordinList(newWord) == true) {
+    //         results.push(newWord);
+    //     }
+    //     console.log(newWord);
+    // }
+    let i:number = 0;
+    while(i<word.length ){
+        newWord += word.charAt(i);
+            console.log(newWord);
+            if (isWordinList(newWord) == true) {
+                results.push(newWord);
+                let newString = word.substring(i+1,word.length);
+                results.push(newString);
+            }
+            console.log(results);
+            i+=1;
+        }
+
+}
+
 //console.log(isOneLetterError(word));
-console.log(isLettersreplaced(word));
+console.log(separateWords(word));
 console.log(results);
 
