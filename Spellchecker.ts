@@ -25,12 +25,15 @@ function isOneLetterError (word: string) {
 }
 function isLettersreplaced (word:string) {
     for(let i:number=0; i<word.length;i++) {
-       let  word.charAt(i)
-        console.log(Newword);
-        if(isWordinList(Newword) == true) {
-            results.push(Newword);
+        let arra: string[];
+        arra = [...word];
+        console.log(arra);
 
-        }
+        console.log(word);
+       // if(isWordinList(Newword) == true) {
+        //    results.push(Newword);
+
+       // }
     }
 
 }
