@@ -1,5 +1,5 @@
 var words = ["lake", "lock", "lama", "lose", "luck", "like", "soke", "siwe", "sika"];
-var word = "sike";
+var word = "iske";
 var alfabhet = 'abcdefghijklmnopqrstuvwxyz';
 var results = [];
 function isWordinList(word) {
@@ -20,5 +20,15 @@ function isOneLetterError(word) {
         }
     }
 }
-console.log(isOneLetterError(word));
+function isLettersreplaced(word) {
+    for (var i = 0; i < word.length; i++) {
+        var Newword = word.replace(word.charAt(i), word.charAt(i + 1));
+        console.log(Newword);
+        if (isWordinList(Newword) == true) {
+            results.push(Newword);
+        }
+    }
+}
+//console.log(isOneLetterError(word));
+console.log(isLettersreplaced(word));
 console.log(results);

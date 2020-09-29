@@ -1,5 +1,5 @@
 const words: string[] = ["lake", "lock", "lama", "lose", "luck", "like", "soke", "siwe", "sika"];
-let word: string = "sike";
+let word: string = "iske";
 const alfabhet: string = 'abcdefghijklmnopqrstuvwxyz';
 let results: string[] = [];
 
@@ -23,7 +23,19 @@ function isOneLetterError (word: string) {
         }
     }
 }
+function isLettersreplaced (word:string) {
+    for(let i:number=0; i<word.length;i++) {
+       let  word.charAt(i)
+        console.log(Newword);
+        if(isWordinList(Newword) == true) {
+            results.push(Newword);
 
+        }
+    }
 
-console.log(isOneLetterError(word));
+}
+
+//console.log(isOneLetterError(word));
+console.log(isLettersreplaced(word));
 console.log(results);
+
