@@ -1,5 +1,5 @@
 var words = ["lake", "lock", "lama", "lose", "luck", "like", "soke", "siwe", "sike"];
-var word = "lakelock";
+var word = "lakeloek";
 var alfabhet = 'abcdefghijklmnopqrstuvwxyz';
 var results = [];
 function isWordinList(word) {
@@ -49,9 +49,10 @@ function separateWords(word) {
     while (i < word.length) {
         newWord += word.charAt(i);
         console.log(newWord);
-        if (isWordinList(newWord) == true) {
+        var newString = word.substring(i + 1, word.length);
+        if ((isWordinList(newWord) == true) && (isWordinList(newString) == true)) {
             results.push(newWord);
-            var newString = word.substring(i + 1, word.length);
+            // let newString = word.substring(i+1,word.length);
             results.push(newString);
         }
         console.log(results);

@@ -1,5 +1,5 @@
 const words: string[] = ["lake", "lock", "lama", "lose", "luck", "like", "soke", "siwe", "sike"];
-let word: string = "lakelock";
+let word: string = "lakeloek";
 const alfabhet: string = 'abcdefghijklmnopqrstuvwxyz';
 let results: string[] = [];
 
@@ -51,9 +51,10 @@ function separateWords(word: string) {
     while(i<word.length ){
         newWord += word.charAt(i);
             console.log(newWord);
-            if (isWordinList(newWord) == true) {
+        let newString = word.substring(i+1,word.length);
+            if ((isWordinList(newWord) == true) && ( isWordinList(newString) == true)) {
                 results.push(newWord);
-                let newString = word.substring(i+1,word.length);
+               // let newString = word.substring(i+1,word.length);
                 results.push(newString);
             }
             console.log(results);
