@@ -1,5 +1,5 @@
-const words: string[] = ["lake", "lock", "lama", "lose", "luck", "like", "soke", "siwe", "sika"];
-let word: string = "iske";
+const words: string[] = ["lake", "lock", "lama", "lose", "luck", "like", "soke", "siwe", "sike"];
+let word: string = "lukc";
 const alfabhet: string = 'abcdefghijklmnopqrstuvwxyz';
 let results: string[] = [];
 
@@ -14,9 +14,9 @@ function isWordinList (word: string) {
 function isOneLetterError (word: string) {
     for(let i:number=0; i<word.length;i++) {
         for(let j:number=0; j<alfabhet.length; j++){
-           let  Newword: string = word.replace(word.charAt(i),alfabhet.charAt(j));
-            if(isWordinList(Newword) == true) {
-                results.push(Newword)
+           let  newWord: string = word.replace(word.charAt(i),alfabhet.charAt(j));
+            if(isWordinList(newWord) == true) {
+                results.push(newWord);
 
             }
             console.log(word);
@@ -24,18 +24,17 @@ function isOneLetterError (word: string) {
     }
 }
 function isLettersreplaced (word:string) {
-    for(let i:number=0; i<word.length;i++) {
-        let arra: string[];
-        arra = [...word];
-        console.log(arra);
-
-        console.log(word);
-       // if(isWordinList(Newword) == true) {
-        //    results.push(Newword);
-
-       // }
+    for(let i:number=0; i<word.length-1;i++) {
+        let arra: string[] = word.split("");
+        [arra[i],arra[i+1]]=[arra[i+1],arra[i]];
+        let newWord = '';
+        for(let i:number=0; i<arra.length;i++){
+            newWord += arra[i];
+            if(isWordinList(newWord) == true) {
+                results.push(newWord);
+            }
+        }      console.log(newWord);
     }
-
 }
 
 //console.log(isOneLetterError(word));
