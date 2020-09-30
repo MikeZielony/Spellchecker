@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MikeZielony/Spellchecker/issues"
   },
-  "homepage": "https://github.com/MikeZielony/Spellchecker#readme"
+  "homepage": "https://github.com/MikeZielony/Spellchecker#readme",
+  "devDependencies": {
+    "typescript-eslint-parser": "^22.0.0"
+  }
 }
