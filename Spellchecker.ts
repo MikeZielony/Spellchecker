@@ -3,7 +3,6 @@ let word: string = "lakeloek";
 const alfabhet: string = 'abcdefghijklmnopqrstuvwxyz';
 let results: string[] = [];
 
-
 function isWordinList(word: string) {
     for (let i: number = 0; i < words.length; i++) {
         if (words[i] == word) {
@@ -11,7 +10,6 @@ function isWordinList(word: string) {
         }
     }
 }
-
 
 function isOneLetterError(word: string) {
     for (let i: number = 0; i < word.length; i++) {
@@ -56,7 +54,6 @@ function separateWords(word: string) {
         console.log(results);
         i += 1;
     }
-
 }
 
 function findWordsFromList(word: string) {
@@ -74,13 +71,12 @@ function findWordsFromList(word: string) {
         console.log(results);
         i += 1;
     }
-
 }
 
 function putLetterBetween(word: string) {
     let index: number = 0;
     let new_word: string = "";
-    for (let j: number = 0; j < word.length * 2 + 1; j++) {
+    for(let j: number = 0; j < word.length * 2 + 1; j++) {
         if (j % 2 === 0) {
             new_word += alfabhet[index];
             continue;
@@ -88,8 +84,18 @@ function putLetterBetween(word: string) {
         new_word += word[index];
         index++
     }
-    console.log(new_word)
-
+    console.log(new_word);
 }
 
-putLetterBetween("kajak");
+function deleteLetter(word: string){
+    let newWord: string = '';
+    for(let i: number = 0; i<word.length;i++){
+        if(isWordinList(newWord)){
+            console.log(newWord);
+        } else {
+           newWord = word.slice(0, 0) + word.slice(i+1, word.length);
+           console.log(newWord);
+        }
+    }
+}
+console.log(deleteLetter("kajak"));
