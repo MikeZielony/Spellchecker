@@ -43,14 +43,6 @@ function isLettersreplaced(word: string) {
 
 function separateWords(word: string) {
     let newWord = '';
-    // for (let i: number = 0; i < word.length - 1; i++) {
-    //     newWord += word.charAt(i);
-    //     console.log(newWord);
-    //     if (isWordinList(newWord) == true) {
-    //         results.push(newWord);
-    //     }
-    //     console.log(newWord);
-    // }
     let i: number = 0;
     while (i < word.length) {
         newWord += word.charAt(i);
@@ -69,18 +61,9 @@ function separateWords(word: string) {
 
 function findWordsFromList(word: string) {
     let newWord = '';
-    // for (let i: number = 0; i < word.length - 1; i++) {
-    //     newWord += word.charAt(i);
-    //     console.log(newWord);
-    //     if (isWordinList(newWord) == true) {
-    //         results.push(newWord);
-    //     }
-    //     console.log(newWord);
-    // }
     let i: number = 0;
     while (i < word.length) {
         newWord += word.charAt(i);
-        // console.log(newWord);
         if (isWordinList(newWord) == true) {
             results.push(newWord);
             let newString = word.substring(i + 1, word.length);
@@ -93,28 +76,6 @@ function findWordsFromList(word: string) {
     }
 
 }
-
-//console.log(isOneLetterError(word));
-//   console.log(findWordsFromList(word));
-//    console.log(results);
-
-//console.log(isOneLetterError(word));
-//    console.log(results);
-
-// function putLetterBetween(word: string) {
-//     for (let i: number = 0; i < word.length; i++) {
-//         let arra: string[] = word.split("");
-//         let newWord = '';
-//         for (let j: number = 0; j < arra.length; j++) {
-//             for(j=0; j<alfabhet.length;j++){
-//                 arra.insert(i+1,alfabhet[j]);
-//             }
-//             if (isWordinList(newWord) == true) {
-//                 results.push(newWord);
-//             }
-//         }
-//         console.log(arra);
-//     }
 
 function putLetterBetween(word: string) {
     let index: number = 0;
