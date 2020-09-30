@@ -12,11 +12,17 @@ function isWordinList(word) {
 }
 function putLetterBetween(word) {
     for (var i = 0; i < word.length; i++) {
-        for (var j = 0; j < alfabhet.length; j++) {
-            var newWord = "";
-            newWord += alfabhet.charAt(j) + word.charAt(i);
-            console.log(newWord);
+        var arra = word.split("");
+        var newWord = '';
+        for (var j = 0; j < arra.length; j++) {
+            for (j = 0; j < alfabhet.length; j++) {
+                arra.splice(i, 0, alfabhet[j]);
+            }
+            if (isWordinList(newWord) == true) {
+                results.push(newWord);
+            }
         }
+        console.log(arra);
     }
     function isOneLetterError(word) {
         for (var i = 0; i < word.length; i++) {
@@ -99,4 +105,4 @@ function putLetterBetween(word) {
     //console.log(isOneLetterError(word));
     //    console.log(results);
 }
-putLetterBetween("lke");
+putLetterBetween("123");

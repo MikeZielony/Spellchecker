@@ -14,11 +14,17 @@ function isWordinList (word: string) {
 
 function putLetterBetween(word: string) {
     for (let i: number = 0; i < word.length; i++) {
-        for (let j: number = 0; j < alfabhet.length; j++) {
-            let newWord: string = "";
-            newWord += alfabhet.charAt(j) + word.charAt(i);
-            console.log(newWord);
+        let arra: string[] = word.split("");
+        let newWord = '';
+        for (let j: number = 0; j < arra.length; j++) {
+            for(j=0; j<alfabhet.length;j++){
+                arra.splice(i,0,alfabhet[j]);
+            }
+            if (isWordinList(newWord) == true) {
+                results.push(newWord);
+            }
         }
+        console.log(arra);
     }
 
     function isOneLetterError(word: string) {
@@ -110,4 +116,4 @@ function putLetterBetween(word: string) {
 //    console.log(results);
 }
 
-putLetterBetween("lke");
+putLetterBetween("123");
