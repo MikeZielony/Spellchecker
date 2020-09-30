@@ -20,9 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2345321-02e9-4bd8-acb5-22e93fc36c65" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spellchecker.js" beforeDir="false" afterPath="$PROJECT_DIR$/Spellchecker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spellchecker.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Spellchecker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Spellchecker.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/CsvParser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/CsvParser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/CsvParser.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +40,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -50,10 +58,21 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.8.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.11.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v14.8.0/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -83,6 +102,8 @@
       <list>
         <option value="$PROJECT_DIR$/Utils/CsvParser.js" />
         <option value="$PROJECT_DIR$/Spellchecker.js" />
+        <option value="$PROJECT_DIR$/Spellchecker.js" />
+        <option value="$PROJECT_DIR$/Utils/CsvParser.js" />
       </list>
     </option>
   </component>
@@ -99,9 +120,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="179" key="SettingsEditor" timestamp="1601366262592">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="328" y="38" key="SettingsEditor" timestamp="1601454304225">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="461" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1601366262592" />
+    <state x="328" y="38" key="SettingsEditor/0.27.1366.741/0.27.1366.741@0.27.1366.741" timestamp="1601454304225" />
   </component>
 </project>

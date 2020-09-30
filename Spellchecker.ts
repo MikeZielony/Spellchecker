@@ -1,5 +1,6 @@
+
 const words: string[] = ["lake", "lock", "lama", "lose", "luck", "like", "soke", "siwe", "sike"];
-let word: string = "lakeloek";
+let word: string = "lakelock";
 const alfabhet: string = 'abcdefghijklmnopqrstuvwxyz';
 let results: string[] = [];
 
@@ -17,7 +18,6 @@ function isOneLetterError (word: string) {
            let  newWord: string = word.replace(word.charAt(i),alfabhet.charAt(j));
             if(isWordinList(newWord) == true) {
                 results.push(newWord);
-
             }
             console.log(word);
         }
@@ -94,7 +94,7 @@ function findWordsFromList(word: string) {
 console.log(findWordsFromList(word));
 console.log(results);
 
-//console.log(isOneLetterError(word));
-console.log(separateWords(word));
-console.log(results);
+// //console.log(isOneLetterError(word));
+// console.log(separateWords(word));
+// console.log(results);
 

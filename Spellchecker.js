@@ -1,5 +1,8 @@
+"use strict";
+exports.__esModule = true;
+var CsvParser_1 = require("./Utils/CsvParser");
 var words = ["lake", "lock", "lama", "lose", "luck", "like", "soke", "siwe", "sike"];
-var word = "lakeloek";
+var word = "lakelock";
 var alfabhet = 'abcdefghijklmnopqrstuvwxyz';
 var results = [];
 function isWordinList(word) {
@@ -59,6 +62,35 @@ function separateWords(word) {
         i += 1;
     }
 }
+function findWordsFromList(word) {
+    var newWord = '';
+    // for (let i: number = 0; i < word.length - 1; i++) {
+    //     newWord += word.charAt(i);
+    //     console.log(newWord);
+    //     if (isWordinList(newWord) == true) {
+    //         results.push(newWord);
+    //     }
+    //     console.log(newWord);
+    // }
+    var i = 0;
+    while (i < word.length) {
+        newWord += word.charAt(i);
+        // console.log(newWord);
+        if (isWordinList(newWord) == true) {
+            results.push(newWord);
+            var newString = word.substring(i + 1, word.length);
+            if (isWordinList(newString) == true) {
+                results.push(newString);
+            }
+        }
+        console.log(results);
+        i += 1;
+    }
+}
 //console.log(isOneLetterError(word));
-console.log(separateWords(word));
+console.log(findWordsFromList(word));
 console.log(results);
+// //console.log(isOneLetterError(word));
+// console.log(separateWords(word));
+// console.log(results);
+console.log(CsvParser_1.CsvParser.parseDataToArray());

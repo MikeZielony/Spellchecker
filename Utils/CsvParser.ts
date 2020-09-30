@@ -1,5 +1,4 @@
 import * as fs from "fs"
-//import {StringHasher} from "../hashers/StringHasher";
 
 export interface StringHasher {
     hash(s:string):number;
@@ -8,13 +7,13 @@ export interface StringHasher {
 export class CsvParser {
 
     static parseDataToArray() {
-        return fs.readFileSync('../Resources/wordlist.txt')
+        return fs.readFileSync('Resources/wordlist.txt')
             .toString() // convert Buffer to string
             .split('\n') // split string to lines
             .map((e: string) => e.trim());
     }
 }
- export   class HashTable {
+ export class HashTable {
         hashedTable: Array<string>;
         data: Array<string>;
         hasher: StringHasher;
