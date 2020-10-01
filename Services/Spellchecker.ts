@@ -1,15 +1,15 @@
 export class Spellchecker {
     results: string[] = [];
     alphabet: string = 'abcdefghijklmnopqrstuvwxyz';
-    wordsList: string[] = [];
+    private readonly _wordsList: string[] = [];
 
     constructor(wordsList: string[]) {
-        this.wordsList = wordsList;
+        this._wordsList = wordsList;
     }
 
     public isWordInList(word: string): boolean {
-        for (let i: number = 0; i < this.wordsList.length; i++) {
-            if (this.wordsList[i] == word) {
+        for (let i: number = 0; i < this._wordsList.length; i++) {
+            if (this._wordsList[i] == word) {
                 return true
             }
         }
@@ -100,4 +100,7 @@ export class Spellchecker {
         return this.results;
     }
 
+    get wordsList(): string[] {
+        return this._wordsList;
+    }
 }

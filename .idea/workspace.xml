@@ -20,13 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2345321-02e9-4bd8-acb5-22e93fc36c65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Utils/Reader.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/dc/84ee5ccae3ceeb0880e73e6e0c2265.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/dc/84ee5ccae3ceeb0880e73e6e0c2265.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/ef/c2e2acb5f2c268dfbefe5b51e690b9.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/ef/c2e2acb5f2c268dfbefe5b51e690b9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/00/51233511fc61db7235e7e4bc4fe191.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/04/78fd569cbb5f0a7a8e6580814e8ffe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/2b/e8bea5a31fd86c49d171a60331d1c0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/39/de89f95a04bf4cb6cd1bb52ef50fb7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/6a/419ca3b84347f50372aea9eb1cb566.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/6b/fecdaa4ca19b6b4681c46038a4a041.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/6e/a7f8fd14107a1cee40470b605615c5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/70/56de60fc202568ba78a74ecdfb41e3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/7e/f693a9e61811f8e1f05e86a569ab24.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/97/798d51c30369d535e652e15424fb8d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/9e/9aca8dece58012f1f0f09c35622bff.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/b5/5d4b364a6aad3f0afc702143527a5b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/c5/acb1e26527eab2bf0a6628ce9a836c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/c9/67b8ba3b872c3145ccdc051f5d5595.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/d4/922275352067f8eccc227207b5cbee.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/dc/84ee5ccae3ceeb0880e73e6e0c2265.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/eb/9752c54df0373c933060ba6c339ae1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/ef/c2e2acb5f2c268dfbefe5b51e690b9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/fd/801c93a0d3d6b8a96a527c4605d4a7.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/Spellchecker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Spellchecker.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/CsvParser.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/Reader.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/Reader.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
     </list>
@@ -34,6 +49,80 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tsconfig.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1924" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Utils/Reader.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5251" column="40" selection-start-line="5251" selection-start-column="40" selection-end-line="5251" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Services/Spellchecker.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="28" selection-start-line="12" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,7 +145,17 @@
       </map>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Utils/Reader.ts" />
+        <option value="$PROJECT_DIR$/Services/Spellchecker.ts" />
+        <option value="$PROJECT_DIR$/views/index.html" />
+        <option value="$PROJECT_DIR$/main.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="145" />
     <option name="y" value="-20" />
     <option name="width" value="1690" />
@@ -64,6 +163,45 @@
   </component>
   <component name="ProjectId" id="1iAxsssd3JWH9wZMHn5rGxuDvbH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Spellchecker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spellchecker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spellchecker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spellchecker" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spellchecker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spellchecker" type="462c0819:PsiDirectoryNode" />
+              <item name="Services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spellchecker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spellchecker" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spellchecker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spellchecker" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -78,16 +216,28 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/views/css" />
       <recent name="C:\Users\Adrian\Desktop\Spellchecker\Services" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Resources" />
-    </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -105,6 +255,34 @@
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4650000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.45" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
@@ -113,7 +291,14 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -132,7 +317,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="491" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1601550815672">
@@ -143,5 +327,42 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1601366262592" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5251" column="40" selection-start-line="5251" selection-start-column="40" selection-end-line="5251" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/Reader.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Services/Spellchecker.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="28" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
