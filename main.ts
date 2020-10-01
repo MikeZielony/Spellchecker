@@ -25,14 +25,15 @@ function checkWord() {
     setTimeout(function () {
         // wordInput.value = wordInput.value.toUpperCase();
         let results: string[] = spellchecker.putLetterBetween(wordInput.value);
-        console.log(results);
+        //console.log(results);
         let proposeWordsBox: any = document.querySelector("#propose-words");
         console.log(proposeWordsBox);
+
         let resultHtml = "";
         results.forEach(word => {
             resultHtml += `<li>${word}</li>`;
         });
-        proposeWordsBox.innerHtml = resultHtml;
+        proposeWordsBox.innerHTML = resultHtml;
 
     }, 3000);
 }
