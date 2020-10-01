@@ -1,0 +1,18 @@
+html {
+    font-family: 'Sansita Swashed', cursive;
+    background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMzk2fQ&auto=format&fit=crop&w=1500&q=80");
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+#file {
+    font-size: 1em;
+}
+
+#file::before {
+    background-color: orange;
+}
