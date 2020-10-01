@@ -1,41 +1,23 @@
-let input: any = document.querySelector('input');
-
-input.addEventListener('change', () => {
-    let files = input.files;
-    if(files.length == 0) return;
-    const file = files[0];
-
-    let reader = new FileReader();
-
-    reader.onload = (e) => {
-        // @ts-ignore
-        const file = e.target.result;
-
-        const lines = (<string> file).split(/\r\n|\n/);
-        console.log(lines)
-        // return lines;
-    };
-
-    // @ts-ignore
-    reader.onerror = (e) => alert(e.target.error.name);
-    reader.readAsText(file);
-});
+import {Spellchecker} from "./Services/Spellchecker";
+import {Reader} from "./Utils/Reader";
 
 let wordInput: any = document.querySelector('#word');
 let proposeWordsBox: any = document.querySelector("#propose-words");
+let input: any = document.querySelector('input');
+
+input.addEventListener('change', () => {
+    console.log(Reader.readFile(input.files));
+});
+
 
 wordInput.addEventListener('keyup', () => checkWord());
+let fileReader: FileReader = new FileReader();
 
 function checkWord() {
-    setTimeout(function(){
+    // let spellchecker: any = new Spellchecker();
+    setTimeout(function () {
         wordInput.value = wordInput.value.toUpperCase();
-        // let results: string[] = Spellchecker.putLetterBetween(wordInput.value)
-        proposeWordsBox.innerHtml = results.join("<br>")
+        // let results: string[] = spellchecker.putLetterBetween(wordInput.value)
+        // proposeWordsBox.innerHtml = results.join("<br>")
     }, 3000);
 }
-
-
-
-
-
-
