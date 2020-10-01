@@ -81,6 +81,16 @@ function putLetterBetween(word) {
     }
     console.log(new_word);
 }
+function putLetBet(word) {
+    var new_word = "";
+    for (var i = 0; i < word.length + 1; i++) {
+        for (var j = 0; j < alfabhet.length; j++) {
+            new_word = word.slice(0, i) + alfabhet[j] + word.slice(i, word.length);
+            console.log(new_word);
+        }
+    }
+}
+putLetBet("kajak");
 function deleteLetter(word) {
     var newWord = '';
     for (var i = 0; i < word.length; i++) {
@@ -93,4 +103,4 @@ function deleteLetter(word) {
         }
     }
 }
-console.log(deleteLetter("kajak"));
+console.log(deleteLetter("kajaklake"));

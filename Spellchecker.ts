@@ -87,6 +87,17 @@ function putLetterBetween(word: string) {
     console.log(new_word);
 }
 
+function putLetBet(word: string) {
+    let new_word: string = "";
+    for (let i: number = 0; i < word.length + 1; i++) {
+        for (let j: number = 0; j < alfabhet.length; j++) {
+            new_word = word.slice(0, i) + alfabhet[j] + word.slice(i, word.length);
+            console.log(new_word);
+        }
+    }
+}
+    putLetBet("kajak");
+
 function deleteLetter(word: string){
     let newWord: string = '';
     for(let i: number = 0; i<word.length;i++){
@@ -98,4 +109,3 @@ function deleteLetter(word: string){
         }
     }
 }
-console.log(deleteLetter("kajak"));
