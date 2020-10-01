@@ -1,4 +1,6 @@
-import * as fs from "fs"
+/*
+ import * as fs from "fs"
+
 
 export interface StringHasher {
     hash(s:string):number;
@@ -7,7 +9,7 @@ export interface StringHasher {
 export class CsvParser {
 
     static parseDataToArray() {
-        return fs.readFileSync('Resources/wordlist.txt')
+        return fs.readFileSync('../Resources/wordlist.txt')
             .toString() // convert Buffer to string
             .split('\n') // split string to lines
             .map((e: string) => e.trim());
@@ -38,3 +40,4 @@ export class CsvParser {
     }
 
 
+ */

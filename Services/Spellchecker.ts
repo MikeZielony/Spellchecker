@@ -1,14 +1,15 @@
-const words: string[] = ["lake", "lock", "lama", "lose", "luck", "like", "soke", "siwe", "sike"];
+const words: string[] = ["lake", "lock", "lama", "lose", "luck", "like", "soke", "siwe", "sike", "bake"];
 let word: string = "lakeloek";
 const alfabhet: string = 'abcdefghijklmnopqrstuvwxyz';
 let results: string[] = [];
 
-function isWordinList(word: string) {
+function isWordinList(word: string): boolean {
     for (let i: number = 0; i < words.length; i++) {
         if (words[i] == word) {
             return true
         }
     }
+    return false
 }
 
 function isOneLetterError(word: string) {
@@ -74,29 +75,18 @@ function findWordsFromList(word: string) {
 }
 
 function putLetterBetween(word: string) {
-    let index: number = 0;
-    let new_word: string = "";
-    for(let j: number = 0; j < word.length * 2 + 1; j++) {
-        if (j % 2 === 0) {
-            new_word += alfabhet[index];
-            continue;
-        }
-        new_word += word[index];
-        index++
-    }
-    console.log(new_word);
-}
-
-function putLetBet(word: string) {
-    let new_word: string = "";
+    let newWord: string = "";
     for (let i: number = 0; i < word.length + 1; i++) {
         for (let j: number = 0; j < alfabhet.length; j++) {
-            new_word = word.slice(0, i) + alfabhet[j] + word.slice(i, word.length);
-            console.log(new_word);
+            newWord = word.slice(0, i) + alfabhet[j] + word.slice(i, word.length);
+            if(isWordinList(newWord)) {
+                results.push(newWord);
+            }
         }
     }
+
+    return results;
 }
-    putLetBet("kajak");
 
 function deleteLetter(word: string){
     let newWord: string = '';
