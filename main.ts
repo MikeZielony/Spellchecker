@@ -19,7 +19,14 @@ input.addEventListener('change', function(e: any) {
         spellchecker = new Spellchecker(wordList);
 })});
 
-wordInput.addEventListener('keyup', () => checkWord());
+
+wordInput.addEventListener('keyup', () =>{
+    let proposeWordsBox: any = document.querySelector("#propose-words");
+    proposeWordsBox.innerHTML = "";
+    if(wordInput.value.length >= 3){
+    checkWord()
+}
+});
 
 function checkWord() {
     setTimeout(function () {
@@ -36,5 +43,5 @@ function checkWord() {
         });
         proposeWordsBox.innerHTML = resultHtml;
 
-    }, 5000);
+    }, 3000);
 }

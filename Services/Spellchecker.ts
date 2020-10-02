@@ -49,7 +49,7 @@ export class Spellchecker {
         while (i < word.length) {
             newWord += word.charAt(i);
             let newString = word.substring(i + 1, word.length);
-            if ((this.isWordInList(newWord) == true) && (this.isWordInList(newString) == true)) {
+            if (this.isWordInList(newWord) && this.isWordInList(newString)) {
                 this.results.push(newWord);
                 this.results.push(newString);
             }
@@ -100,6 +100,7 @@ export class Spellchecker {
         return this.results;
     }
 public all(word: string): string[] {
+        this.results = [];
         this.deleteLetter(word);
         this.isLettersReplaced(word);
         this.isOneLetterError(word);
