@@ -20,9 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2345321-02e9-4bd8-acb5-22e93fc36c65" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.cache/0d/bf44f308131f26c757c7045c933129.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/0d/bf44f308131f26c757c7045c933129.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/d9/a07f34bf7ebb11eb0ce9689e8ec04e.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/d9/a07f34bf7ebb11eb0ce9689e8ec04e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/fb/3f0188985d0e6bf6e3acac87bd6652.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/fb/3f0188985d0e6bf6e3acac87bd6652.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/views/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Spellchecker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Spellchecker.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +46,12 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
+        <entry key="$PROJECT_DIR$" value="view" />
       </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iAxsssd3JWH9wZMHn5rGxuDvbH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />

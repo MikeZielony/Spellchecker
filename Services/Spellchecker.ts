@@ -99,6 +99,15 @@ export class Spellchecker {
         }
         return this.results;
     }
+public all(word: string): string[] {
+        this.deleteLetter(word);
+        this.isLettersReplaced(word);
+        this.isOneLetterError(word);
+        this.putLetterBetween(word);
+        this.separateWords(word);
+        return this.results;
+
+}
 
     get wordsList(): string[] {
         return this._wordsList;

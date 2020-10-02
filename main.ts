@@ -24,7 +24,9 @@ wordInput.addEventListener('keyup', () => checkWord());
 function checkWord() {
     setTimeout(function () {
         // wordInput.value = wordInput.value.toUpperCase();
-        let results: string[] = spellchecker.putLetterBetween(wordInput.value);
+        //let results: string[] = spellchecker.putLetterBetween(wordInput.value);
+        let results: string[] = spellchecker.all(wordInput.value);
+
         console.log(results);
         let proposeWordsBox: any = document.querySelector("#propose-words");
         console.log(proposeWordsBox);
@@ -34,5 +36,5 @@ function checkWord() {
         });
         proposeWordsBox.innerHTML = resultHtml;
 
-    }, 3000);
+    }, 5000);
 }
