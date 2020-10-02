@@ -19,8 +19,12 @@ input.addEventListener('change', function(e: any) {
         spellchecker = new Spellchecker(wordList);
 })});
 
-wordInput.addEventListener('keyup', () => checkWord());
+//wordInput.addEventListener('keyup', () => checkWord());
 
+$(word).keyup( function() {
+    if( wordInput.length < 4 ) return;
+    checkWord();
+});
 function checkWord() {
     setTimeout(function () {
         // wordInput.value = wordInput.value.toUpperCase();
@@ -36,5 +40,5 @@ function checkWord() {
         });
         proposeWordsBox.innerHTML = resultHtml;
 
-    }, 5000);
+    }, 3000);
 }
