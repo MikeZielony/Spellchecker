@@ -30,7 +30,6 @@ bower_components
 .lock-wscript
 
 # IDEs and editors
-.idea
 .project
 .classpath
 .c9/
@@ -91,4 +90,3 @@ lerna-debug.log
 Thumbs.db
 
 .cache
-.idea/workspace.xml
