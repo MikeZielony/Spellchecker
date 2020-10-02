@@ -32,7 +32,7 @@ function checkWord() {
         results.forEach(word => {
             resultHtml += `<li>${word}</li>`;
         });
-        proposeWordsBox.innerHtml = resultHtml;
+        proposeWordsBox.innerHTML = resultHtml;
 
     }, 3000);
 }
