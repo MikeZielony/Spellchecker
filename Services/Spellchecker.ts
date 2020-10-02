@@ -35,7 +35,7 @@ export class Spellchecker {
             let newWord = '';
             for (let i: number = 0; i < arr.length; i++) {
                 newWord += arr[i];
-                if (this.isWordInList(newWord) == true) {
+                if (this.isWordInList(newWord)) {
                     this.results.push(newWord);
                 }
             }
@@ -93,9 +93,9 @@ export class Spellchecker {
         for (let i: number = 0; i < word.length; i++) {
             if (this.isWordInList(newWord)) {
                 this.results.push(newWord);
-            } else {
-                newWord = word.slice(0, 0) + word.slice(i + 1, word.length);
+                continue;
             }
+            newWord = word.slice(0, 0) + word.slice(i + 1, word.length);
         }
         return this.results;
     }
@@ -106,6 +106,7 @@ public all(word: string): string[] {
         this.isOneLetterError(word);
         this.putLetterBetween(word);
         this.separateWords(word);
+        //todo eliminate duplicates
         return this.results;
 
 }

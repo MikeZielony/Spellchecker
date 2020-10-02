@@ -28,20 +28,22 @@ wordInput.addEventListener('keyup', () =>{
 }
 });
 
+function updateValue(word: string) {
+    console.log(word);
+    wordInput.value = word;
+}
+
 function checkWord() {
     setTimeout(function () {
-        // wordInput.value = wordInput.value.toUpperCase();
-        //let results: string[] = spellchecker.putLetterBetween(wordInput.value);
         let results: string[] = spellchecker.all(wordInput.value);
-
-        console.log(results);
         let proposeWordsBox: any = document.querySelector("#propose-words");
-        console.log(proposeWordsBox);
-        let resultHtml = "";
+
         results.forEach(word => {
-            resultHtml += `<li>${word}</li>`;
+            let li = document.createElement("li");
+            li.innerText = word;
+            li.addEventListener("click", () => updateValue(word));
+            proposeWordsBox.appendChild(li);
         });
-        proposeWordsBox.innerHTML = resultHtml;
 
     }, 3000);
 }
